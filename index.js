@@ -1,11 +1,15 @@
 /*app.js*/
 const express = require('express');
 const dotenv = require('dotenv');
+const cors = require('cors');
 
 dotenv.config();
 
 const PORT = parseInt(process.env.PORT || '4000');
 const app = express();
+
+// Use CORS middleware
+app.use(cors());
 
 
 // Function to get a random number
