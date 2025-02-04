@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const PORT = parseInt(process.env.PORT || '8080');
+const PORT = parseInt(process.env.PORT || '4000');
 const app = express();
 
 
