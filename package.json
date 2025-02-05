@@ -4,8 +4,8 @@
   "description": "This is an application to use into a OTel Workshop",
   "main": "index.js",
 "scripts": {
-    "dev": "nodemon --require ./instrumentation.js index.js",
-    "start": "node --require ./instrumentation.js index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "Omar Ascanio Arias",
   "license": "ISC",
