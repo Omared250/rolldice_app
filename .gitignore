@@ -3,3 +3,4 @@ node_modules
 *.log
 *.sh
 newrelic.js
+instrumentation.js
